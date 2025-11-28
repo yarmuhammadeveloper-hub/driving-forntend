@@ -119,7 +119,7 @@
       {/* Left Section (Heading + Image) */}
     <div className="col-lg-3 col-md-12 mb-4 text-center text-lg-start">
       <div className="mt-5 pt-5">
-      <h3 className='ms-5 mb-3'><b>Most</b></h3>
+      <h3 className='ms-5 mb-3'><b>Most</b>  </h3>
        <h1 className="heading-anim">
         <span className="anim-text">Popular Services</span>
       </h1>
