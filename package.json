@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "dereiving-info",
+=======
+  "name": "driving",
+>>>>>>> d4323b554a83a3bce54a4bf41935d9495f26a4e8
   "version": "0.1.0",
   "private": true,
   "dependencies": {
