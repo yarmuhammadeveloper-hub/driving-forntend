@@ -49,6 +49,7 @@
 .color8{
         background: #FFEDCB;
         height: 100vh;
+        height: auto;
     
 }
 .card{

@@ -127,7 +127,7 @@ export default function Home() {
           {/* Hero */}
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-lg-6 mt-5">
+              <div className="col-lg-6 col-md-6 col-12 mt-5">
                 <div className="hero-title">
                   <h1 className="fontsize">
                     <span className="colorstyle">Discover</span> the BEST <br />
@@ -143,7 +143,7 @@ export default function Home() {
                 </p>
                 <button type="button" className="btn btncolor mt-4">Book your ride</button>
               </div>
-              <div className="col-lg-6 mt-5 text-center">
+              <div className="col-lg-6 col-md-6 col-12 mt-5 text-center">
                 <img src={car1} className="img-fluid w-100" alt="Car" />
               </div>
             </div>
@@ -172,14 +172,14 @@ export default function Home() {
       {/* Most Popular Services */}
       <div className="container-fluid color8 py-5">
         <div className="row">
-          <div className="col-lg-3 col-md-3 mt-5">
+          <div className="col-lg-3 col-md-3 col-12 mt-5">
             <h1 className="ms-5 mt-5">Most Popular Services</h1>
             <img src={line1} className="ms-5 mb-5 img-fluid" alt="" />
           </div>
-          <div className="col-lg-9">
+          <div className="col-lg-9 col-md-9 col-12">
             <div className="row">
               {[0,1,2].map(i => (
-                <div key={i} className="col-lg-4 mt-4">
+                <div key={i} className="col-lg-4 col-md-4 col-12 mt-4">
                   {serviceCard(i)}
                 </div>
               ))}
@@ -203,10 +203,10 @@ export default function Home() {
           <img src={line1} className="mb-5 mx-auto d-block" alt="" style={{maxWidth: '200px'}} />
         </div>
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-6 col-12">
             <img src={group98} className="mt-5 w-100" alt="" />
           </div>
-          <div className="col-lg-6 p-4">
+          <div className="col-lg-6 col-md-6 col-12 p-4">
             {[...Array(4)].map((_, i) => (
               <div key={i} className="d-flex mt-5">
                 <div className="mt-2 me-4">
@@ -223,7 +223,7 @@ export default function Home() {
       <div className="container-fluid mt-5" style={{backgroundColor: '#FFEDCB', height: 'auto', padding: '50px 0'}}>
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 mt-5">
+            <div className="col-lg-6 col-md-6 col-12 mt-5">
               <h1>Stay updated with <br /> our services.</h1>
               <p>Get a car wherever and whenever you need it with your iOS or Android device.</p>
               <div className="btn-group w-100" role="group">
@@ -231,7 +231,7 @@ export default function Home() {
                 <button className="btn btn-danger">Subscribe</button>
               </div>
             </div>
-            <div className="col-lg-6 mt-5 text-center">
+            <div className="col-lg-6 col-md-6 col-12 mt-5 text-center">
               <img src={blackCar} className="img-fluid" alt="" />
             </div>
           </div>
@@ -263,9 +263,9 @@ export default function Home() {
           <img src={line2} className="mb-5 mx-auto d-block" alt="" style={{maxWidth: '200px'}} />
         </div>
         <div className="row">
-          <div className="col-lg-4">{testimonial(img9, 'Nattasha')}</div>
-          <div className="col-lg-4">{testimonial(img10, 'Nattasha')}</div>
-          <div className="col-lg-4">{testimonial(img11, 'Nattasha')}</div>
+          <div className="col-lg-4 col-md-4 col-12">{testimonial(img9, 'Nattasha')}</div>
+          <div className="col-lg-4 col-md-4 col-12">{testimonial(img10, 'Nattasha')}</div>
+          <div className="col-lg-4 col-md-4 col-12">{testimonial(img11, 'Nattasha')}</div>
         </div>
       </div>
 
@@ -290,7 +290,7 @@ export default function Home() {
       <div className="container-fluid herosection2 mt-5 py-5" style={{backgroundColor: '#dark-color'}}>
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6 col-12">
               <div className="p-4">
                 <h4>Contact Us</h4>
                 <p>Call : +123 400 123</p>
