@@ -14,10 +14,10 @@
     <>
       <div className="container-fluid" style={{ backgroundColor: "#FFEDCB", height: "100vh" }}>
         <div className="container p-4">
-          <nav className="navbar navbar-expand-lg bg-body-tertiary p-3">
+          <nav className="navbar navbar-expand-lg bg-body-tertiary p-1">
             <div className="container-fluid">
               <a className="navbar-brand" href="#">
-                <img src={thum1} alt="" />
+                <img src={thum1} className='p-2 w-100' alt="" />
               </a>
               <button
                 className="navbar-toggler"
