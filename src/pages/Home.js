@@ -3,11 +3,10 @@
  import thum2 from '../assats/line1.png'
  import thum3 from '../assats/car1.png'
  import thum4 from '../assats/icon.png'
- import png1 from '../assats/line1.png'
+ 
  import png2 from '../assats/Frame 28.png'
- import png3 from '../assats/Frame 28.png'
- import png4 from '../assats/line1.png'
- import png5 from '../assats/line1.png'
+  
+ 
   
  export default function Home() {
   return (
