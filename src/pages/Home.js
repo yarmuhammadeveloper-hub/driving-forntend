@@ -111,11 +111,11 @@ export default function Home() {
                   </li>
                 </ul>
                 <div className="d-flex">
-                  <button type="button" className="btn btn-danger me-3">Book your ride</button>
+                  <button type="button" className="btn btn-sm btn-danger me-3 ">Book your ride</button>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-globe2 text-danger me-2" viewBox="0 0 16 16">
                     <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335 .82-1.887 1.855-.215 .403-.395 .872 .705 .157 1.472 .257 2.282 .287zM4.249 3.539 .214-.577 .481 -1.078 .597 -.933 3.051 3.05 .544 .277 1.198 .49zM3.509 7.5 .036 -1.07 .188 -2.087 .436 -3.008 -1.565 -.667 1.018 7.5z" />
                   </svg>
-                  <button className="btn btn-outline-secondary me-2">English</button>
+                  <button className="btn btn-sm btn-outline-secondary me-2">English</button>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-check text-danger" viewBox="0 0 16 16">
                     <path d="M10.97 4.97 .75 .75 1.07 1.05 -3.99 4.99 .75 .75 -1.08 .02 4.324 8.384 .75 .75 1.06 -1.06 2.094 2.093 3.473 -4.425z"/>
                   </svg>
@@ -152,7 +152,7 @@ export default function Home() {
       </div>
 
       {/* Services Boxes */}
-      <div className="container my-5">
+      <div className="container my-5 ms-4">
         <div className="row g-4">
           {[
             'City Rides',
