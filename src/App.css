@@ -59,6 +59,7 @@
     background: #FFEDCB;
     border-bottom-left-radius: 30px;
     height: 300px;
+    height: auto;
 }
 .mycard2{
     border: 2px solid #FFEDCB
@@ -66,6 +67,7 @@
 .herosection2{
     background: #FFEDCB;
     height: 65vh;
+    height: auto;
 }
 
 /* ----------------card--hover */

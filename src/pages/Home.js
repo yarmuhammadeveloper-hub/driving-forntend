@@ -63,7 +63,7 @@ export default function Home() {
 
   const exploreItem = (
     <>
-      <img src={iconCarpool} alt="" />
+       
       <div>
         <b>Intercity Rides</b>
         <p>Get a car wherever and whenever you need it with your <br /> iOS or Android device.</p>
@@ -76,8 +76,8 @@ export default function Home() {
       <img src={icon5} className="ms-4 mt-5" alt="" />
       <p className="mt-5 p-3">There are of Lorem Ipsum available, but the majority have suffered alteration in some form...</p>
       <div className="d-flex">
-        <img src={img} className="w-25" alt="" />
-        <div className="ms-3">
+        <img src={img} className="w-25 p-2 " alt="" />
+        <div className="ms-3 mt-2">
           <b>{name}</b>
           <p>Junior Lawyer</p>
         </div>
@@ -179,12 +179,12 @@ export default function Home() {
           <div className="col-lg-9 col-md-9 col-12">
             <div className="row">
               {[0,1,2].map(i => (
-                <div key={i} className="col-lg-4 col-md-4 col-12 mt-4">
+                <div key={i} className="col-lg-4 col-md-4 col-12 mt-4 ms-4">
                   {serviceCard(i)}
                 </div>
               ))}
             </div>
-            <div className="text-end mb-5">
+            <div className="text-end mb-5 mt-3">
               <button className="btn btn-secondary me-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" className="bi bi-chevron-compact-right" viewBox="0 0 16 16"><path fillRule="evenodd" d="M6.776 1.553a.5 .5 0 0 1 .671 .223l3 6a.5 .5 0 0 1 0 .448l-3 6a.5 .5 0 1 1 -.894 -.448L9.44 8 6.553 2.224a.5 .5 0 0 1 .223 -.671z"/></svg>
               </button>
@@ -263,9 +263,9 @@ export default function Home() {
           <img src={line2} className="mb-5 mx-auto d-block" alt="" style={{maxWidth: '200px'}} />
         </div>
         <div className="row">
-          <div className="col-lg-4 col-md-4 col-12">{testimonial(img9, 'Nattasha')}</div>
-          <div className="col-lg-4 col-md-4 col-12">{testimonial(img10, 'Nattasha')}</div>
-          <div className="col-lg-4 col-md-4 col-12">{testimonial(img11, 'Nattasha')}</div>
+          <div className="col-lg-4 col-md-4 col-12 mt-3">{testimonial(img9, 'Nattasha')}</div>
+          <div className="col-lg-4 col-md-4 col-12 mt-3">{testimonial(img10, 'Nattasha')}</div>
+          <div className="col-lg-4 col-md-4 col-12 mt-3">{testimonial(img11, 'Nattasha')}</div>
         </div>
       </div>
 
